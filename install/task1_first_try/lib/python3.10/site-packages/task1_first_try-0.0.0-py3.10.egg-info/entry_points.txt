@@ -1,0 +1,4 @@
+[console_scripts]
+first_try_publisher = task1_first_try.publisher_node:main
+first_try_subscriber = task1_first_try.subscriber_node:main
+

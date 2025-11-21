@@ -1,0 +1,41 @@
+[0.438s] Invoking command in '/home/ubuntu/ros2_ws/src/task2': PYTHONPATH=/home/ubuntu/ros2_ws/build/task2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/task2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task2 build --build-base /home/ubuntu/ros2_ws/build/task2/build install --record /home/ubuntu/ros2_ws/build/task2/install.log --single-version-externally-managed install_data
+[0.550s] running egg_info
+[0.550s] creating ../../build/task2/task2.egg-info
+[0.550s] writing ../../build/task2/task2.egg-info/PKG-INFO
+[0.551s] writing dependency_links to ../../build/task2/task2.egg-info/dependency_links.txt
+[0.552s] writing entry points to ../../build/task2/task2.egg-info/entry_points.txt
+[0.553s] writing requirements to ../../build/task2/task2.egg-info/requires.txt
+[0.554s] writing top-level names to ../../build/task2/task2.egg-info/top_level.txt
+[0.554s] writing manifest file '../../build/task2/task2.egg-info/SOURCES.txt'
+[0.557s] reading manifest file '../../build/task2/task2.egg-info/SOURCES.txt'
+[0.558s] writing manifest file '../../build/task2/task2.egg-info/SOURCES.txt'
+[0.558s] running build
+[0.558s] running build_py
+[0.559s] creating /home/ubuntu/ros2_ws/build/task2/build
+[0.559s] creating /home/ubuntu/ros2_ws/build/task2/build/lib
+[0.559s] creating /home/ubuntu/ros2_ws/build/task2/build/lib/task2
+[0.560s] copying task2/__init__.py -> /home/ubuntu/ros2_ws/build/task2/build/lib/task2
+[0.560s] copying task2/publisher_node.py -> /home/ubuntu/ros2_ws/build/task2/build/lib/task2
+[0.561s] copying task2/subcriber_node.py -> /home/ubuntu/ros2_ws/build/task2/build/lib/task2
+[0.562s] running install
+[0.563s] running install_lib
+[0.563s] creating /home/ubuntu/ros2_ws/install/task2/lib/python3.10/site-packages/task2
+[0.564s] copying /home/ubuntu/ros2_ws/build/task2/build/lib/task2/__init__.py -> /home/ubuntu/ros2_ws/install/task2/lib/python3.10/site-packages/task2
+[0.564s] copying /home/ubuntu/ros2_ws/build/task2/build/lib/task2/publisher_node.py -> /home/ubuntu/ros2_ws/install/task2/lib/python3.10/site-packages/task2
+[0.565s] copying /home/ubuntu/ros2_ws/build/task2/build/lib/task2/subcriber_node.py -> /home/ubuntu/ros2_ws/install/task2/lib/python3.10/site-packages/task2
+[0.567s] byte-compiling /home/ubuntu/ros2_ws/install/task2/lib/python3.10/site-packages/task2/__init__.py to __init__.cpython-310.pyc
+[0.568s] byte-compiling /home/ubuntu/ros2_ws/install/task2/lib/python3.10/site-packages/task2/publisher_node.py to publisher_node.cpython-310.pyc
+[0.569s] byte-compiling /home/ubuntu/ros2_ws/install/task2/lib/python3.10/site-packages/task2/subcriber_node.py to subcriber_node.cpython-310.pyc
+[0.570s] running install_data
+[0.570s] creating /home/ubuntu/ros2_ws/install/task2/share/ament_index
+[0.570s] creating /home/ubuntu/ros2_ws/install/task2/share/ament_index/resource_index
+[0.571s] creating /home/ubuntu/ros2_ws/install/task2/share/ament_index/resource_index/packages
+[0.571s] copying resource/task2 -> /home/ubuntu/ros2_ws/install/task2/share/ament_index/resource_index/packages
+[0.571s] copying package.xml -> /home/ubuntu/ros2_ws/install/task2/share/task2
+[0.573s] running install_egg_info
+[0.573s] Copying ../../build/task2/task2.egg-info to /home/ubuntu/ros2_ws/install/task2/lib/python3.10/site-packages/task2-0.0.0-py3.10.egg-info
+[0.578s] running install_scripts
+[0.591s] Installing point_publisher script to /home/ubuntu/ros2_ws/install/task2/lib/task2
+[0.593s] Installing point_subscriber script to /home/ubuntu/ros2_ws/install/task2/lib/task2
+[0.595s] writing list of installed files to '/home/ubuntu/ros2_ws/build/task2/install.log'
+[0.615s] Invoked command in '/home/ubuntu/ros2_ws/src/task2' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/task2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/task2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task2 build --build-base /home/ubuntu/ros2_ws/build/task2/build install --record /home/ubuntu/ros2_ws/build/task2/install.log --single-version-externally-managed install_data
