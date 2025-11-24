@@ -1,0 +1,22 @@
+[0.553s] Invoking command in '/home/ubuntu/ubuntu_ros2/ros2_ws/src/task2': PYTHONPATH=/home/ubuntu/ubuntu_ros2/ros2_ws/build/task2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ubuntu_ros2/ros2_ws/install/task2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task2 build --build-base /home/ubuntu/ubuntu_ros2/ros2_ws/build/task2/build install --record /home/ubuntu/ubuntu_ros2/ros2_ws/build/task2/install.log --single-version-externally-managed install_data
+[0.654s] running egg_info
+[0.654s] writing ../../build/task2/task2.egg-info/PKG-INFO
+[0.655s] writing dependency_links to ../../build/task2/task2.egg-info/dependency_links.txt
+[0.655s] writing entry points to ../../build/task2/task2.egg-info/entry_points.txt
+[0.655s] writing requirements to ../../build/task2/task2.egg-info/requires.txt
+[0.656s] writing top-level names to ../../build/task2/task2.egg-info/top_level.txt
+[0.658s] reading manifest file '../../build/task2/task2.egg-info/SOURCES.txt'
+[0.659s] writing manifest file '../../build/task2/task2.egg-info/SOURCES.txt'
+[0.659s] running build
+[0.659s] running build_py
+[0.660s] running install
+[0.660s] running install_lib
+[0.662s] running install_data
+[0.663s] running install_egg_info
+[0.663s] removing '/home/ubuntu/ubuntu_ros2/ros2_ws/install/task2/lib/python3.10/site-packages/task2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.664s] Copying ../../build/task2/task2.egg-info to /home/ubuntu/ubuntu_ros2/ros2_ws/install/task2/lib/python3.10/site-packages/task2-0.0.0-py3.10.egg-info
+[0.675s] running install_scripts
+[0.692s] Installing publisher_node script to /home/ubuntu/ubuntu_ros2/ros2_ws/install/task2/lib/task2
+[0.693s] Installing subscriber_node script to /home/ubuntu/ubuntu_ros2/ros2_ws/install/task2/lib/task2
+[0.694s] writing list of installed files to '/home/ubuntu/ubuntu_ros2/ros2_ws/build/task2/install.log'
+[0.719s] Invoked command in '/home/ubuntu/ubuntu_ros2/ros2_ws/src/task2' returned '0': PYTHONPATH=/home/ubuntu/ubuntu_ros2/ros2_ws/build/task2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ubuntu_ros2/ros2_ws/install/task2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task2 build --build-base /home/ubuntu/ubuntu_ros2/ros2_ws/build/task2/build install --record /home/ubuntu/ubuntu_ros2/ros2_ws/build/task2/install.log --single-version-externally-managed install_data

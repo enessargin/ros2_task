@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.000198] (task1_first_try) JobQueued: {'identifier': 'task1_first_try', 'dependencies': OrderedDict()}
+[0.000357] (task2) JobQueued: {'identifier': 'task2', 'dependencies': OrderedDict()}
+[0.000467] (task4) JobQueued: {'identifier': 'task4', 'dependencies': OrderedDict()}
+[0.000568] (task1_first_try) JobStarted: {'identifier': 'task1_first_try'}
+[0.007736] (task2) JobStarted: {'identifier': 'task2'}
+[0.011742] (task4) JobStarted: {'identifier': 'task4'}
+[0.104194] (-) TimerEvent: {}
+[0.204839] (-) TimerEvent: {}
+[0.306873] (-) TimerEvent: {}
+[0.407826] (-) TimerEvent: {}
+[0.509983] (-) TimerEvent: {}
+[0.556199] (task2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/task2', 'build', '--build-base', '/home/ubuntu/ubuntu_ros2/ros2_ws/build/task2/build', 'install', '--record', '/home/ubuntu/ubuntu_ros2/ros2_ws/build/task2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ubuntu_ros2/ros2_ws/src/task2', 'env': {'VNCDESKTOP': '5289957beff5:1 (ubuntu)', 'QT_SCALE_FACTOR': '1', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'HOSTNAME': '5289957beff5', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ubuntu/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-AxVv4yKkWG,guid=3e2cc9864ad95a0087e91ed9692334ae', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '688', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-7GJGG3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/5289957beff5:@/tmp/.ICE-unix/72,unix/5289957beff5:/tmp/.ICE-unix/72', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LD_PRELOAD': '/lib/aarch64-linux-gnu/libgcc_s.so.1', 'XDG_CURRENT_DESKTOP': 'MATE', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-7GJGG3/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'TERMINATOR_UUID': 'urn:uuid:b153421c-947f-4210-bf0f-ad4bf24d8faf', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/ubuntu_ros2/ros2_ws/build/task2', 'PYTHONPATH': '/home/ubuntu/ubuntu_ros2/ros2_ws/build/task2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ubuntu_ros2/ros2_ws/install/task2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6800', 'QT_FONT_DPI': '96'}, 'shell': False}
+[0.560981] (task1_first_try) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/task1_first_try', 'build', '--build-base', '/home/ubuntu/ubuntu_ros2/ros2_ws/build/task1_first_try/build', 'install', '--record', '/home/ubuntu/ubuntu_ros2/ros2_ws/build/task1_first_try/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ubuntu_ros2/ros2_ws/src/task1_first_try', 'env': {'VNCDESKTOP': '5289957beff5:1 (ubuntu)', 'QT_SCALE_FACTOR': '1', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'HOSTNAME': '5289957beff5', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ubuntu/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-AxVv4yKkWG,guid=3e2cc9864ad95a0087e91ed9692334ae', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '688', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-7GJGG3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/5289957beff5:@/tmp/.ICE-unix/72,unix/5289957beff5:/tmp/.ICE-unix/72', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LD_PRELOAD': '/lib/aarch64-linux-gnu/libgcc_s.so.1', 'XDG_CURRENT_DESKTOP': 'MATE', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-7GJGG3/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'TERMINATOR_UUID': 'urn:uuid:b153421c-947f-4210-bf0f-ad4bf24d8faf', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/ubuntu_ros2/ros2_ws/build/task1_first_try', 'PYTHONPATH': '/home/ubuntu/ubuntu_ros2/ros2_ws/build/task1_first_try/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ubuntu_ros2/ros2_ws/install/task1_first_try/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6800', 'QT_FONT_DPI': '96'}, 'shell': False}
+[0.562730] (task4) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/task4', 'build', '--build-base', '/home/ubuntu/ubuntu_ros2/ros2_ws/build/task4/build', 'install', '--record', '/home/ubuntu/ubuntu_ros2/ros2_ws/build/task4/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ubuntu_ros2/ros2_ws/src/task4', 'env': {'VNCDESKTOP': '5289957beff5:1 (ubuntu)', 'QT_SCALE_FACTOR': '1', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'HOSTNAME': '5289957beff5', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ubuntu/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-AxVv4yKkWG,guid=3e2cc9864ad95a0087e91ed9692334ae', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '688', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-7GJGG3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/5289957beff5:@/tmp/.ICE-unix/72,unix/5289957beff5:/tmp/.ICE-unix/72', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LD_PRELOAD': '/lib/aarch64-linux-gnu/libgcc_s.so.1', 'XDG_CURRENT_DESKTOP': 'MATE', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-7GJGG3/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'TERMINATOR_UUID': 'urn:uuid:b153421c-947f-4210-bf0f-ad4bf24d8faf', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/ubuntu_ros2/ros2_ws/build/task4', 'PYTHONPATH': '/home/ubuntu/ubuntu_ros2/ros2_ws/build/task4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ubuntu_ros2/ros2_ws/install/task4/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6800', 'QT_FONT_DPI': '96'}, 'shell': False}
+[0.610816] (-) TimerEvent: {}
+[0.661351] (task2) StdoutLine: {'line': b'running egg_info\n'}
+[0.662005] (task2) StdoutLine: {'line': b'writing ../../build/task2/task2.egg-info/PKG-INFO\n'}
+[0.662370] (task2) StdoutLine: {'line': b'writing dependency_links to ../../build/task2/task2.egg-info/dependency_links.txt\n'}
+[0.662715] (task2) StdoutLine: {'line': b'writing entry points to ../../build/task2/task2.egg-info/entry_points.txt\n'}
+[0.663019] (task2) StdoutLine: {'line': b'writing requirements to ../../build/task2/task2.egg-info/requires.txt\n'}
+[0.663270] (task2) StdoutLine: {'line': b'writing top-level names to ../../build/task2/task2.egg-info/top_level.txt\n'}
+[0.665632] (task2) StdoutLine: {'line': b"reading manifest file '../../build/task2/task2.egg-info/SOURCES.txt'\n"}
+[0.666492] (task2) StdoutLine: {'line': b"writing manifest file '../../build/task2/task2.egg-info/SOURCES.txt'\n"}
+[0.666715] (task2) StdoutLine: {'line': b'running build\n'}
+[0.666959] (task2) StdoutLine: {'line': b'running build_py\n'}
+[0.667670] (task2) StdoutLine: {'line': b'running install\n'}
+[0.668152] (task2) StdoutLine: {'line': b'running install_lib\n'}
+[0.669168] (task2) StdoutLine: {'line': b'running install_data\n'}
+[0.670419] (task2) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.670635] (task2) StdoutLine: {'line': b"removing '/home/ubuntu/ubuntu_ros2/ros2_ws/install/task2/lib/python3.10/site-packages/task2-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.671496] (task2) StdoutLine: {'line': b'Copying ../../build/task2/task2.egg-info to /home/ubuntu/ubuntu_ros2/ros2_ws/install/task2/lib/python3.10/site-packages/task2-0.0.0-py3.10.egg-info\n'}
+[0.681524] (task4) StdoutLine: {'line': b'running egg_info\n'}
+[0.681937] (task4) StdoutLine: {'line': b'creating ../../build/task4/task4.egg-info\n'}
+[0.682960] (task2) StdoutLine: {'line': b'running install_scripts\n'}
+[0.683362] (task4) StdoutLine: {'line': b'writing ../../build/task4/task4.egg-info/PKG-INFO\n'}
+[0.683750] (task4) StdoutLine: {'line': b'writing dependency_links to ../../build/task4/task4.egg-info/dependency_links.txt\n'}
+[0.684224] (task4) StdoutLine: {'line': b'writing entry points to ../../build/task4/task4.egg-info/entry_points.txt\n'}
+[0.684576] (task4) StdoutLine: {'line': b'writing requirements to ../../build/task4/task4.egg-info/requires.txt\n'}
+[0.684925] (task4) StdoutLine: {'line': b'writing top-level names to ../../build/task4/task4.egg-info/top_level.txt\n'}
+[0.685348] (task4) StdoutLine: {'line': b"writing manifest file '../../build/task4/task4.egg-info/SOURCES.txt'\n"}
+[0.687148] (task1_first_try) StdoutLine: {'line': b'running egg_info\n'}
+[0.687864] (task4) StdoutLine: {'line': b"reading manifest file '../../build/task4/task4.egg-info/SOURCES.txt'\n"}
+[0.688145] (task1_first_try) StdoutLine: {'line': b'writing ../../build/task1_first_try/task1_first_try.egg-info/PKG-INFO\n'}
+[0.688532] (task1_first_try) StdoutLine: {'line': b'writing dependency_links to ../../build/task1_first_try/task1_first_try.egg-info/dependency_links.txt\n'}
+[0.688847] (task4) StdoutLine: {'line': b"writing manifest file '../../build/task4/task4.egg-info/SOURCES.txt'\n"}
+[0.689187] (task1_first_try) StdoutLine: {'line': b'writing entry points to ../../build/task1_first_try/task1_first_try.egg-info/entry_points.txt\n'}
+[0.689433] (task4) StdoutLine: {'line': b'running build\n'}
+[0.689714] (task4) StdoutLine: {'line': b'running build_py\n'}
+[0.689888] (task1_first_try) StdoutLine: {'line': b'writing requirements to ../../build/task1_first_try/task1_first_try.egg-info/requires.txt\n'}
+[0.690186] (task4) StdoutLine: {'line': b'creating /home/ubuntu/ubuntu_ros2/ros2_ws/build/task4/build\n'}
+[0.690612] (task1_first_try) StdoutLine: {'line': b'writing top-level names to ../../build/task1_first_try/task1_first_try.egg-info/top_level.txt\n'}
+[0.690786] (task4) StdoutLine: {'line': b'creating /home/ubuntu/ubuntu_ros2/ros2_ws/build/task4/build/lib\n'}
+[0.691071] (task4) StdoutLine: {'line': b'creating /home/ubuntu/ubuntu_ros2/ros2_ws/build/task4/build/lib/task4\n'}
+[0.691642] (task4) StdoutLine: {'line': b'copying task4/subscriber_node.py -> /home/ubuntu/ubuntu_ros2/ros2_ws/build/task4/build/lib/task4\n'}
+[0.691923] (task4) StdoutLine: {'line': b'copying task4/__init__.py -> /home/ubuntu/ubuntu_ros2/ros2_ws/build/task4/build/lib/task4\n'}
+[0.692317] (task4) StdoutLine: {'line': b'copying task4/publisher_node.py -> /home/ubuntu/ubuntu_ros2/ros2_ws/build/task4/build/lib/task4\n'}
+[0.694699] (task1_first_try) StdoutLine: {'line': b"reading manifest file '../../build/task1_first_try/task1_first_try.egg-info/SOURCES.txt'\n"}
+[0.695062] (task4) StdoutLine: {'line': b'running install\n'}
+[0.695308] (task4) StdoutLine: {'line': b'running install_lib\n'}
+[0.695990] (task1_first_try) StdoutLine: {'line': b"writing manifest file '../../build/task1_first_try/task1_first_try.egg-info/SOURCES.txt'\n"}
+[0.696302] (task1_first_try) StdoutLine: {'line': b'running build\n'}
+[0.696563] (task1_first_try) StdoutLine: {'line': b'running build_py\n'}
+[0.696757] (task4) StdoutLine: {'line': b'creating /home/ubuntu/ubuntu_ros2/ros2_ws/install/task4/lib/python3.10/site-packages/task4\n'}
+[0.697062] (task4) StdoutLine: {'line': b'copying /home/ubuntu/ubuntu_ros2/ros2_ws/build/task4/build/lib/task4/subscriber_node.py -> /home/ubuntu/ubuntu_ros2/ros2_ws/install/task4/lib/python3.10/site-packages/task4\n'}
+[0.697433] (task4) StdoutLine: {'line': b'copying /home/ubuntu/ubuntu_ros2/ros2_ws/build/task4/build/lib/task4/__init__.py -> /home/ubuntu/ubuntu_ros2/ros2_ws/install/task4/lib/python3.10/site-packages/task4\n'}
+[0.697663] (task1_first_try) StdoutLine: {'line': b'running install\n'}
+[0.697847] (task1_first_try) StdoutLine: {'line': b'running install_lib\n'}
+[0.698230] (task4) StdoutLine: {'line': b'copying /home/ubuntu/ubuntu_ros2/ros2_ws/build/task4/build/lib/task4/publisher_node.py -> /home/ubuntu/ubuntu_ros2/ros2_ws/install/task4/lib/python3.10/site-packages/task4\n'}
+[0.698954] (task2) StdoutLine: {'line': b'Installing publisher_node script to /home/ubuntu/ubuntu_ros2/ros2_ws/install/task2/lib/task2\n'}
+[0.700049] (task1_first_try) StdoutLine: {'line': b'running install_data\n'}
+[0.700363] (task2) StdoutLine: {'line': b'Installing subscriber_node script to /home/ubuntu/ubuntu_ros2/ros2_ws/install/task2/lib/task2\n'}
+[0.700995] (task4) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ubuntu_ros2/ros2_ws/install/task4/lib/python3.10/site-packages/task4/subscriber_node.py to subscriber_node.cpython-310.pyc\n'}
+[0.701375] (task1_first_try) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.701971] (task2) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ubuntu_ros2/ros2_ws/build/task2/install.log'\n"}
+[0.704817] (task1_first_try) StdoutLine: {'line': b"removing '/home/ubuntu/ubuntu_ros2/ros2_ws/install/task1_first_try/lib/python3.10/site-packages/task1_first_try-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.705917] (task4) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ubuntu_ros2/ros2_ws/install/task4/lib/python3.10/site-packages/task4/__init__.py to __init__.cpython-310.pyc\n'}
+[0.706652] (task1_first_try) StdoutLine: {'line': b'Copying ../../build/task1_first_try/task1_first_try.egg-info to /home/ubuntu/ubuntu_ros2/ros2_ws/install/task1_first_try/lib/python3.10/site-packages/task1_first_try-0.0.0-py3.10.egg-info\n'}
+[0.708026] (task4) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ubuntu_ros2/ros2_ws/install/task4/lib/python3.10/site-packages/task4/publisher_node.py to publisher_node.cpython-310.pyc\n'}
+[0.709701] (task4) StdoutLine: {'line': b'running install_data\n'}
+[0.710241] (task4) StdoutLine: {'line': b'creating /home/ubuntu/ubuntu_ros2/ros2_ws/install/task4/share/ament_index\n'}
+[0.710699] (task4) StdoutLine: {'line': b'creating /home/ubuntu/ubuntu_ros2/ros2_ws/install/task4/share/ament_index/resource_index\n'}
+[0.711166] (-) TimerEvent: {}
+[0.711430] (task4) StdoutLine: {'line': b'creating /home/ubuntu/ubuntu_ros2/ros2_ws/install/task4/share/ament_index/resource_index/packages\n'}
+[0.712133] (task4) StdoutLine: {'line': b'copying resource/task4 -> /home/ubuntu/ubuntu_ros2/ros2_ws/install/task4/share/ament_index/resource_index/packages\n'}
+[0.712378] (task4) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ubuntu_ros2/ros2_ws/install/task4/share/task4\n'}
+[0.712909] (task4) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.715268] (task4) StdoutLine: {'line': b'Copying ../../build/task4/task4.egg-info to /home/ubuntu/ubuntu_ros2/ros2_ws/install/task4/lib/python3.10/site-packages/task4-0.0.0-py3.10.egg-info\n'}
+[0.716900] (task1_first_try) StdoutLine: {'line': b'running install_scripts\n'}
+[0.722131] (task4) StdoutLine: {'line': b'running install_scripts\n'}
+[0.726511] (task2) CommandEnded: {'returncode': 0}
+[0.733258] (task1_first_try) StdoutLine: {'line': b'Installing first_try_publisher script to /home/ubuntu/ubuntu_ros2/ros2_ws/install/task1_first_try/lib/task1_first_try\n'}
+[0.733693] (task1_first_try) StdoutLine: {'line': b'Installing first_try_subscriber script to /home/ubuntu/ubuntu_ros2/ros2_ws/install/task1_first_try/lib/task1_first_try\n'}
+[0.735101] (task1_first_try) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ubuntu_ros2/ros2_ws/build/task1_first_try/install.log'\n"}
+[0.739007] (task4) StdoutLine: {'line': b'Installing publisher_node script to /home/ubuntu/ubuntu_ros2/ros2_ws/install/task4/lib/task4\n'}
+[0.739916] (task4) StdoutLine: {'line': b'Installing subscriber_node script to /home/ubuntu/ubuntu_ros2/ros2_ws/install/task4/lib/task4\n'}
+[0.741243] (task4) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ubuntu_ros2/ros2_ws/build/task4/install.log'\n"}
+[0.753083] (task2) JobEnded: {'identifier': 'task2', 'rc': 0}
+[0.756053] (task1_first_try) CommandEnded: {'returncode': 0}
+[0.763932] (task1_first_try) JobEnded: {'identifier': 'task1_first_try', 'rc': 0}
+[0.765260] (task4) CommandEnded: {'returncode': 0}
+[0.773099] (task4) JobEnded: {'identifier': 'task4', 'rc': 0}
+[0.773945] (-) EventReactorShutdown: {}
