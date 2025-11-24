@@ -1,9 +1,10 @@
 
+#  tasks for learning ros2 humble
+
 ---------------------------------------------------------
 
 TASK 1 — Basic Publisher & Subscriber 
 
-Goal
 Create a simple ROS2 pipeline with:
 - a publisher that publishes a string message 
 - a subscriber that reads and prints the message
@@ -13,18 +14,17 @@ How to Run
 Terminal 1:
 cd ~/ros2_ws
 source install/setup.bash
-ros2 run task1 publisher_node
+ros2 run task1_first_try publisher_node
 
 Terminal 2:
 cd ~/ros2_ws
 source install/setup.bash
-ros2 run task1 subscriber_node
+ros2 run task1_first_try subscriber_node
 
 ---------------------------------------------------------
 
 TASK 2 — Publisher & Subscriber Point
 
-Goal
 Repeat Task 1 but use geometry_msgs instead of String.
 
 Point message structure:
@@ -53,7 +53,7 @@ ros2 run task2 subscriber_node
 
 TASK 4 — Publisher & Subscriber Service
 
-Goal
+
 Create a complete ROS2 pipeline that:
 1. Publishes random shapes & colors 
 2. Subscribes and detects a specific color
